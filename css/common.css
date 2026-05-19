@@ -1,0 +1,47 @@
+body {
+    font-family: var(--font-main);
+    color: var(--primary);
+    background-color: var(--white);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 var(--padding);
+}
+
+.main {
+    min-height: calc(100vh - 400px);
+    padding: 40px 0;
+}
+
+.main__title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 40px 0 30px;
+    color: var(--black);
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: var(--black);
+}
+
+a,
+.tag,
+.btn-more,
+.like-btn,
+.sidebar__btn {
+    cursor: pointer;
+}
+
+.header__btn:active,
+.btn-more:active,
+.like-btn:active,
+.sidebar__btn:active,
+.tag:active {
+    transform: scale(0.98);
+}

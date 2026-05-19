@@ -1,0 +1,152 @@
+.footer {
+    background-color: #F3F4F5;
+    padding: 50px 0 30px;
+    margin-top: 80px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E0E2E5;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__menu-item {
+    list-style: none;
+}
+
+.footer__link {
+    font-size: 14px;
+    color: #333;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.footer__link:hover {
+    color: var(--secondary);
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.footer__form {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.footer__input {
+    padding: 12px 16px;
+    border: 1px solid #E0E2E5;
+    border-radius: 30px;
+    width: 240px;
+    font-size: 14px;
+}
+
+.footer__input:focus {
+    outline: none;
+    border-color: var(--secondary);
+}
+
+.footer__submit {
+    width: 44px;
+    height: 44px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.footer__submit:hover {
+    background-color: #3a5e47;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__contact {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    font-size: 12px;
+    color: var(--gray-dark);
+}
+
+.footer__copyright {
+    margin: 0;
+}
+
+.footer__legal {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__legal-link {
+    color: var(--gray-dark);
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.footer__legal-link:hover {
+    color: var(--secondary);
+}
+
+.footer__socials {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__social-link {
+    color: #6B6B6B;
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social-link:hover {
+    color: var(--secondary);
+}
+
+.footer__social-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+}

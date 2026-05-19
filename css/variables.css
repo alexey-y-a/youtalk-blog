@@ -1,0 +1,15 @@
+:root {
+    --primary: #2D2D2D;
+    --secondary: #4A7B5D;
+    --accent: #8B5E3C;
+    --gray-light: #F0F2F5;
+    --gray-dark: #6B6B6B;
+    --white: #FFFFFF;
+    --black: #1A1A1A;
+
+    --font-main: 'Montserrat', sans-serif;
+    --font-alt: 'Open Sans', sans-serif;
+
+    --container: 1280px;
+    --padding: 20px;
+}
